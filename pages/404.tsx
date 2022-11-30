@@ -1,15 +1,15 @@
 import style from '../styles/404.module.css'
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
-export default function custom404() {
+function custom404() {
   const router = useRouter();
+  
   useEffect(() => {
   setTimeout(() => {
-    router.push('/')
-  }, 5000)
-  }, [])
-  
+    router.push('/');
+  }, 5000);
+  }, []);
   return (
     <div className={style.main}>
         <div className={style.kode}>404</div>
@@ -23,3 +23,5 @@ export default function custom404() {
     </div>
   )
 }
+
+export default custom404
