@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu&display=swap');
+
+.kode  {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
