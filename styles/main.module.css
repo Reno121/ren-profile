@@ -1,0 +1,6 @@
+.bgimage {
+    background: no-repeat url(../komponen/images/udagawa.png);
+    display: flex;
+    justify-content: center;
+    
+}

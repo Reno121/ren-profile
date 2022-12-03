@@ -1,6 +1,7 @@
 import style from '../styles/404.module.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router';
+import Countdown from 'react-countdown';
 
 function custom404() {
   const Router = useRouter();
@@ -15,7 +16,8 @@ function custom404() {
         <br />
         aku balikin ke home yak 
         <br />
-        tunggu yak, nyari ojek dulu
+        tunggu yak,
+        <Countdown date={Date.now() + 4000} />
     </div>
   )
 

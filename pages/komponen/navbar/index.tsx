@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Navbar(){
     return (
       <>
-        <div className="navbar glass fixed">
+        <div className="navbar glass fixed backdrop-blur-md">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,6 +23,10 @@ export default function Navbar(){
     </ul>
   </div>
   <div className="navbar-end">
+  <label className="switch mr-3">
+    <input type="checkbox" />
+    <span className="slider"></span>
+</label>
     <a className="btn">CONTACT NOW</a>
   </div>
 </div></>
