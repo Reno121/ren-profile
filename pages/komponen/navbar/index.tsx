@@ -23,10 +23,10 @@ export default function Navbar(){
     </ul>
   </div>
   <div className="navbar-end">
-  <label className="switch mr-3">
+   <label className="switch mr-3">
     <input type="checkbox" />
     <span className="slider"></span>
-</label>
+</label> 
     <a className="btn">CONTACT NOW</a>
   </div>
 </div></>
