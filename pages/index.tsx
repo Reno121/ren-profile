@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./komponen/navbar";
 import Hero from "./komponen/hero";
 export default function index (){

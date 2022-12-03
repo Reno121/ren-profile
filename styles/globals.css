@@ -99,7 +99,7 @@ input:checked + .slider:before {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-25%);    
+    transform: translateY(-50%);    
 }
 
 /* Animation */

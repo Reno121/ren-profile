@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function Hero() {
   return (
     /*<div className="p-5 m-5 rounded-md bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dicta perspiciatis aut consectetur soluta, 
