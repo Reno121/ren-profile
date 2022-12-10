@@ -1,7 +1,9 @@
+import { Link, animateScroll as scroll } from "react-scroll"
+
 export default function Navbar(){
     return (
       <>
-        <div className="navbar glass fixed backdrop-blur-md">
+        <div className="navbar glass fixed">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,16 +19,13 @@ export default function Navbar(){
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
-      <li><a>Home</a></li>
-      <li><a>Profiles</a></li>
+      <li><Link to="home" activeClass="active" spy={true} smooth={true} duration={200}>Home</Link></li>
+      <li><Link to="profile" activeClass="active" spy={true} smooth={true} duration={200}>Profiles</Link></li>
       <li><a>Skills</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-   <label className="switch mr-3">
-    <input type="checkbox" />
-    <span className="slider"></span>
-</label> 
+   
     <a className="btn">CONTACT NOW</a>
   </div>
 </div></>

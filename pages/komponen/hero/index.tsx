@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    /*<div className="p-5 m-5 rounded-md bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dicta perspiciatis aut consectetur soluta, 
-        explicabo quidem. Natus, quis? Aliquid architecto itaque repudiandae distinctio accusamus. Praesentium quam harum incidunt quas fugit.
-        <Image className="bg-center" src="/Rina.jpg" alt="Rehan" width={200} height={200}/>
-        </div>*/
+    <section id="home"><div className="hro bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">
+        <h1 className="text-hro">Halo Saya Rehan ()</h1>
+        </div></section>
+            /*<section id="home">
             <div className="hero min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">
                 <div className="hero-content text-center">
                 <div className="max-w-md">
@@ -12,6 +12,6 @@ export default function Hero() {
                 <button className="btn btn-primary opacity-80 transition ease-out hover:scale-110 hover:bg-violet-600 duration-200">Contact Now</button>
                 </div>
             </div>
-        </div>
+        </div></section>*/
   )
 }
