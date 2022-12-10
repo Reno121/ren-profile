@@ -1,7 +1,6 @@
 import Navbar from "./komponen/navbar";
 import Hero from "./komponen/hero";
 import Footer from "./komponen/footer";
-import Image from "next/image";
 import Profile from "./komponen/profile";
 export default function index (){
     
