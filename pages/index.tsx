@@ -2,8 +2,8 @@ import Navbar from "./komponen/navbar";
 import Hero from "./komponen/hero";
 import Footer from "./komponen/footer";
 import Profile from "./komponen/profile";
-export default function index (){
-    
+
+export default function index(){
     return (
         <div>
             <title>Ren Profiles</title>
