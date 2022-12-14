@@ -1,7 +1,13 @@
+import Link from "next/link"
+
 export default function Hero() {
   return (
     <section id="home"><div className="hro bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">
-        <h1 className="text-hro">Halo Saya Rehan ()</h1>
+      <div className="text-hro">  
+        <h1 >Halo Saya Rehan ()</h1>
+        <h1 className="buttn-src glass"><Link href="/secret">?</Link></h1>
+      </div>
+        
         </div></section>
             /*<section id="home">
             <div className="hero min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">

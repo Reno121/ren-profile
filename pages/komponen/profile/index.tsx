@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Profile() {
   return (
-    <div className="bg-slate-200 main-profile md:container md:mx-auto">
+    <div className="bg-slate-200 md:container md:mx-auto">
         <table cellPadding={10}>
             <tr>
                 <td>

@@ -63,8 +63,7 @@ a {
 }
 
 .main-profile {
-  margin: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 2px 2px 4px #666;
 }
 
@@ -74,11 +73,32 @@ a {
 }
 
 .status-profile {
-  border: 1px solid black;
+  padding: 2rem;
   margin: 8px;
   margin-top: auto;
 }
 
 .tak{
   color: darkgray;
+}
+
+.testing{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+}
+
+a:hover {
+  color: gray;
+}
+
+.buttn-src {
+  font-size: 5rem;
+  border-radius: 9999px;
+  margin: 5px;
+}
+
+.buttn-src:hover {
+  background-color: azure;
 }
