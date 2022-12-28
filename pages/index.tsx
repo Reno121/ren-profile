@@ -3,7 +3,6 @@ import Hero from "./komponen/hero";
 import Footer from "./komponen/footer";
 import Profile from "./komponen/profile";
 import Skill from "./komponen/skill";
-import Testing from "./komponen/testing";
 
 export default function index(){
     return (
@@ -21,7 +20,6 @@ export default function index(){
                 <h1 className="font-bold text-5xl font-mono">Coming Soon</h1>
                 <h2><a href="https://www.instagram.com/muhamad_reno1215/">My Instagram Account</a></h2>
                 <h2 >Powered By Next Js</h2></section>
-                <Testing/>
             </div>
             <br />
             <Footer />
