@@ -1,11 +1,12 @@
 import Link from "next/link"
+import Typed from 'react-typed';
+import 'react-typed/dist/animatedCursor.css';
 
 export default function Hero() {
   return (
     <section id="home"><div className="hro bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">
       <div className="text-hro">  
-        <h1 >Halo Saya Rehan ()</h1>
-        <h1 className="buttn-src glass"><Link href="/secret">?</Link></h1>
+      <Typed strings= {["Halo I'm Rehan", "FrontEnd", "Open-source Lover", "RenPy Dev"]} typeSpeed={40} backSpeed={20} loop={true} />
       </div>
         
         </div></section>

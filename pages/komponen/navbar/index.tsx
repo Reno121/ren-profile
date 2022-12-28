@@ -1,5 +1,3 @@
-import { Link, animateScroll as scroll } from "react-scroll"
-
 export default function Navbar(){
     return (
       <>
@@ -19,8 +17,8 @@ export default function Navbar(){
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
-      <li><Link to="home" activeClass="active" spy={true} smooth={true} duration={200}>Home</Link></li>
-      <li><Link to="profile" activeClass="active" spy={true} smooth={true} duration={200}>Profiles</Link></li>
+      <li><a href="">Home</a></li>
+      <li><a href="/">Profiles</a></li>
       <li><a>Skills</a></li>
     </ul>
   </div>

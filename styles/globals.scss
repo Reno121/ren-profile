@@ -102,3 +102,80 @@ a:hover {
 .buttn-src:hover {
   background-color: azure;
 }
+
+.bulet-skills {
+  display: grid;
+  place-items: center;
+}
+
+
+
+.bg-skills {
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+}
+
+.isi-html{
+  --value:80
+}
+
+.bg-profiles{
+  margin: 65px;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px #666;
+}
+
+.grid-profiles {
+  display: grid;
+  place-items: center;
+}
+
+@media only screen and (min-width: 1280px) {
+  .bulet-skills {grid-template-columns: 1fr 200px 1fr; grid-template-rows: 100px 200px;}
+  .bg-skills {margin: 65px;}
+}
+
+@media only screen and (min-widht: 1280px) {
+  .grid-profiles {grid-template-columns: 1fr 200px 1fr; grid-template-rows: 150px 200px;}
+}
+/* profile mobile */
+@media only screen and (min-width: 280px)  {
+  .grid-profiles {grid-template-columns: 1fr; grid-template-rows: 250px;}
+}
+/* skill mobile*/ 
+@media only screen and (min-width: 280px)  {
+  .bulet-skills {grid-template-columns: 0.5fr 200px 0.5fr; grid-template-rows: 50px 150px;}
+}
+
+.timer {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+.col-4 {
+  width: 25%;
+  float: left;
+}
+
+.box {
+  border-right: solid 1px rgba(255, 255, 255, 0.2);
+  font-weight: 300;
+  padding: 10px;
+}
+
+.col-4:last-child .box {
+  border-right-color: transparent;
+}
+
+.box p {
+  font-size: calc(16px + 2vmin);
+  margin: 0;
+}
+
+.text {
+  font-size: 14px;
+}
