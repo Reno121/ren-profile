@@ -9,7 +9,7 @@ export default function skill() {
       width={150}
       height={150}
       alt="Lagi Foto Cosplay ama hutao"
-      loading="lazy"
+      draggable="false"
     />
       </div>
       <div className='int-text'>
