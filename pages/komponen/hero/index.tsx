@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="home"><div className="hro bg-gradient-to-r from-fuchsia-600 to-purple-800 shadow-2xl">
       <div className="text-hro">  
-      <Typed strings= {["Halo I'm Rehan", "FrontEnd", "Open-source Lover", "RenPy Dev"]} typeSpeed={40} backSpeed={20} loop={true} />
+      <Typed strings= {["Halo I'm Rehan", "UI/UX", "RenPy Dev"]} typeSpeed={40} backSpeed={20} loop={true} />
       </div>
         
         </div></section>

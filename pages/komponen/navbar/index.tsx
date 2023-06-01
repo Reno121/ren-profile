@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar(){
     return (
       <>
@@ -24,7 +26,7 @@ export default function Navbar(){
   </div>
   <div className="navbar-end">
    
-    <a className="btn">CONTACT NOW</a>
+    <Link href="https://wa.me/6285811741360" className="btn">CONTACT NOW</Link>
   </div>
 </div></>
     );
