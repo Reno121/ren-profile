@@ -1,7 +1,6 @@
 import Navbar from "./komponen/navbar";
 import Hero from "./komponen/hero";
 import Footer from "./komponen/footer";
-import Profile from "./komponen/profile";
 import Skill from "./komponen/skill";
 import DownloadPdf from "./komponen/downloadPdf"
 import AnimatedSection from './komponen/AnimatedSection';
@@ -13,8 +12,6 @@ export default function index(){
             <link rel="icon" href="/favicon.ico" />
             <Navbar />
             <Hero />
-            <br />
-            <Profile />
             <br />
             <AnimatedSection>
             <Skill />
