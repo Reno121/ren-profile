@@ -4,6 +4,7 @@ import Footer from "./komponen/footer";
 import Skill from "./komponen/skill";
 import DownloadPdf from "./komponen/downloadPdf"
 import AnimatedSection from './komponen/AnimatedSection';
+import NoRightClickPage from './komponen/NoRightClickPage';
 
 export default function index(){
     return (
@@ -11,6 +12,7 @@ export default function index(){
             <title>Ren Profiles</title>
             <link rel="icon" href="/favicon.ico" />
             <Navbar />
+            <NoRightClickPage />
             <Hero />
             <br />
             <AnimatedSection>
