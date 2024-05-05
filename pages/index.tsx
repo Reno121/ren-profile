@@ -21,9 +21,8 @@ export default function index(){
             <div className="testing">
                 <section id="profile">
                 <h1 className="font-bold text-5xl font-mono">Coming Soon</h1>
-                <h2><a href="https://www.instagram.com/muhamad_reno1215/">My Instagram Account</a></h2>
-                <DownloadPdf />
-                <h2 >Powered By Next Js</h2></section>
+                <h2><a href="https://www.instagram.com/mhmd_ren43/">My Instagram Account</a></h2>
+                <h2>Powered By Next Js</h2></section>
             </div>
             <br />
             <Footer />
