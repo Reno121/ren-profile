@@ -26,7 +26,7 @@ export default function Navbar(){
   </div>
   <div className="navbar-end">
    
-    <Link href="https://wa.me/6285811741360" className="btn">CONTACT NOW</Link>
+    <Link href="https://www.instagram.com/mhmd_ren43/" className="btn">CONTACT NOW</Link>
   </div>
 </div></>
     );
