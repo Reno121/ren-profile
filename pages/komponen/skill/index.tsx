@@ -14,7 +14,7 @@ export default function skill() {
       </div>
       <div className='int-text'>
         <h2>Muhammad Raihan Aslan</h2>
-        <h2>XI-TKJ</h2>
+        <h2>XII-TKJ</h2>
       </div>
     </div>
   )
